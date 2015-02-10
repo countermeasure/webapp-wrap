@@ -19,4 +19,4 @@ echo
 cd "$PROJECT_DIR"
 source "$VIRTUALENVWRAPPER_DIR"
 workon "$VIRTUALENV_NAME"
-gunicorn "$PROJECT_NAME".wsgi -b 127.0.0.1:"$PORT"
+gunicorn "$PROJECT_NAME".wsgi --bind 127.0.0.1:"$PORT" --daemon

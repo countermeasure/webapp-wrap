@@ -159,18 +159,11 @@ Set the ``PORT`` variable to the port which the Gunicorn server is using. Port
 
 At the moment, starting ``webapp-wrap`` is quite crude.
 
-In one terminal window start the server with these commands, and leave the window
+In a terminal window execute these commands, and leave the window
 open:
 
 ::
 
     $ cd ~/Projects/webapp-wrap
     $ source start_server.sh
-
-In another terminal window open the browser window with these commands, and leave
-the window open:
-
-::
-
-    $ cd ~/Projects/webapp-wrap
     $ python browser.py
