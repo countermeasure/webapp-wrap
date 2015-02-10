@@ -1,7 +1,7 @@
 webapp-wrap
 ===========
 
-**Turn you webapp into a desktop app in a few minutes.**
+**Turn your webapp into a desktop app in a few minutes.**
 
 
 Contents
@@ -27,7 +27,7 @@ Contents
 ----------------------
 
 ``webapp-wrap`` configures a lightweight browser and a server so that you
-can run your webapp as a desktop app.
+can run your webapp as a desktop app in its own window with a native feel.
 
 The browser uses the WebKit engine and Qt4.
 
